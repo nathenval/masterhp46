@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTER 46</title>
+    <style>
+        @font-face {
+            font-family: 'Ethnocentric'; /* Nama font Ethnocentric */
+            src: url('ethnocentric rg.ttf') format('truetype'); /* Menggunakan font dari folder yang sama */
+        }
+        @font-face {
+            font-family: 'Modern Aesthetic'; /* Nama font yang ingin digunakan */
+            src: url('ModernAesthetic.ttf') format('truetype'); /* Ganti dengan nama file font Anda */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Mengatur arah flex ke kolom */
+            height: 100vh;
+            margin: 0;
+            background-image: url('https://img.freepik.com/premium/photo/desert-backgrounds-abstract-outdoors_53876-265602.jpg?size=626&ext=jpg&ga=GA1.2.1103378010.1721486646&semt=ais_hybrid'); /* Gambar latar belakang */
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 229, 204, 0.9); /* Warna latar belakang widget yang serasi */
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            margin-top: 20px; /* Jarak antara kutipan dan widget */
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px; /* Jarak antar tombol */
+            display: flex;
+            align-items: center; /* Menjaga logo dan teks sejajar */
+            justify-content: center; /* Menyusun isi tombol di tengah */
+        }
+        button img {
+            width: 20px; /* Ukuran logo */
+            height: 20px; /* Ukuran logo */
+            margin-right: 8px; /* Jarak antara logo dan teks */
+        }
+        .whatsapp-button {
+            background-color: #25D366; /* Warna WhatsApp */
+        }
+        .whatsapp-button:hover {
+            background-color: #128C7E; /* Warna gelap saat hover untuk WhatsApp */
+        }
+        .instagram-button {
+            background-color: #C13584; /* Warna Instagram */
+        }
+        .instagram-button:hover {
+            background-color: #9B3D7A; /* Warna gelap saat hover untuk Instagram */
+        }
+        .quote {
+            font-family: 'Modern Aesthetic', sans-serif; /* Mengganti font kutipan ke Modern Aesthetic */
+            font-size: 18px;
+            font-weight: bold; /* Mengubah teks menjadi bold */
+            color: #333; /* Warna teks kutipan */
+            text-align: center; /* Mengatur teks kutipan di tengah */
+            margin-top: 20px; /* Menambahkan jarak atas untuk kutipan */
+            position: absolute; /* Memposisikan kutipan secara absolut */
+            top: 20%; /* Menempatkan kutipan di 20% dari atas */
+        }
+        h1 {
+            font-family: 'Ethnocentric', sans-serif; /* Mengganti font judul ke Ethnocentric */
+            font-size: 36px; /* Ukuran font judul */
+            margin: 10px 0; /* Margin judul */
+            color: black; /* Mengubah warna teks kembali menjadi hitam */
+        }
+        .highlight {
+            color: black; /* Mengubah warna teks "46" menjadi hitam */
+        }
+        .button-container {
+            display: flex; /* Menggunakan flexbox untuk penataan tombol */
+            justify-content: center; /* Menyusun tombol di tengah */
+            margin-top: 10px; /* Jarak atas untuk tombol */
+        }
+        .copyright {
+            position: absolute; /* Memposisikan copyright di bawah */
+            bottom: 10px; /* Jarak dari bawah */
+            font-size: 12px; /* Ukuran font copyright */
+            color: white; /* Mengubah warna teks copyright menjadi putih */
+        }
+    </style>
+</head>
+<body>
+
+<div class="quote">
+    Beli HP, Laptop, Elektronik, Spring Bed baru disini aja! Lengkap kok!
+</div>
+
+<div class="container">
+    <h1>MASTER <span class="highlight">46</span></h1> <!-- Menggunakan elemen span untuk menyoroti angka 46 -->
+    <p>Order here.</p> <!-- Mengubah teks menjadi "Order here." -->
+    <div class="button-container"> <!-- Kontainer untuk tombol -->
+        <button class="whatsapp-button" onclick="window.location.href='https://wa.me/6285143972441'">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="WhatsApp"> 
+            WhatsApp
+        </button>
+        <button class="instagram-button" onclick="window.location.href='https://instagram.com/hci_master46'">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="Instagram"> 
+            Instagram
+        </button>
+    </div>
+</div>
+
+<div class="copyright">
+    &copy; 2024 arrierassya
+</div>
+
+</body>
+</html>
